@@ -1,10 +1,10 @@
+import {Form} from "./(ui)/form/page";
 
 
 export default function Home() {
   return (
-    <main className=" form-control w-screen h-screen">
-      <h1 className="">Hello World!</h1>
-      <button className='btn w-44 btn-primary'>click</button>
+    <main className="form-control text-white w-scren h-screen bg-zinc-900">
+      <Form />
     </main>
   )
 }

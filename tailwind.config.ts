@@ -30,7 +30,10 @@ const config: Config = {
         },
       },
     ],
-    darkMode: true
+    darkMode: "dark",
+    base: true,
+    logs: false
+    
   },
   plugins: [daisyui],
   
